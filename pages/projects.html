@@ -1,0 +1,23 @@
+---
+layout: default
+title: Projects
+permalink: /projects/
+weight: 1
+remote_projects:
+  - git-for-wizards
+  - arduino-visitor-counter
+---
+
+<!-- Original projects content commented out temporarily -->
+<!-- {% include projects/index.html %} -->
+
+<!-- Redirect to coming soon page -->
+<script>
+  window.location.href = '{{ site.baseurl }}/coming-soon/';
+</script>
+
+<!-- Fallback content in case JavaScript is disabled -->
+<div class="container text-center py-5">
+  <h2>Redirecting...</h2>
+  <p>If you are not redirected automatically, <a href="{{ site.baseurl }}/coming-soon/">click here</a>.</p>
+</div>

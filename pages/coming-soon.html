@@ -1,0 +1,120 @@
+---
+layout: default
+title: Coming Soon
+permalink: /coming-soon/
+---
+
+<div class="container-fluid text-center py-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-8 col-md-10">
+      
+      <!-- Cute animated icon -->
+      <div class="mb-4">
+        <div class="coming-soon-icon">
+          🚀
+        </div>
+      </div>
+      
+      <!-- Main heading -->
+      <h1 class="display-4 mb-4 wow animated fadeInDown" data-wow-delay=".1s">
+        <strong>Coming Soon!</strong>
+      </h1>
+      
+      <!-- Subtitle -->
+      <p class="lead text-muted mb-4 wow animated fadeInUp" data-wow-delay=".2s">
+        Something amazing is brewing behind the scenes...
+      </p>
+      
+      <!-- Cute message -->
+      <div class="coming-soon-message mb-5 wow animated fadeInUp" data-wow-delay=".3s">
+        <p class="h5 text-themed mb-3">
+          ✨ I'm working hard to bring you something special! ✨
+        </p>
+        <p class="text-muted">
+          This section is currently under construction. Check back soon for exciting updates!
+        </p>
+      </div>
+      
+      <!-- Progress bar animation -->
+      <div class="progress-container mb-4 wow animated fadeInUp" data-wow-delay=".4s">
+        <p class="small text-muted mb-2">Progress</p>
+        <div class="progress" style="height: 8px;">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" 
+               role="progressbar" 
+               style="width: 75%;" 
+               aria-valuenow="75" 
+               aria-valuemin="0" 
+               aria-valuemax="100">
+          </div>
+        </div>
+        <p class="small text-muted mt-2">75% Complete</p>
+      </div>
+      
+      <!-- Call to action -->
+      <div class="wow animated fadeInUp" data-wow-delay=".5s">
+        <a href="/portfolYOU/" class="btn btn-primary btn-lg rounded-pill px-4">
+          <i class="fas fa-home mr-2"></i>
+          Back to Home
+        </a>
+      </div>
+      
+      <!-- Cute footer message -->
+      <div class="mt-5 wow animated fadeInUp" data-wow-delay=".6s">
+        <p class="small text-muted">
+          <i class="fas fa-heart text-danger"></i>
+          Made with love and lots of coffee
+          <i class="fas fa-coffee text-warning"></i>
+        </p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- Custom styles for coming soon page -->
+<style>
+.coming-soon-icon {
+  font-size: 5rem;
+  animation: bounce 2s infinite;
+  display: inline-block;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+.coming-soon-message {
+  background: rgba(0, 123, 255, 0.1);
+  border-radius: 15px;
+  padding: 2rem;
+  border: 2px dashed rgba(0, 123, 255, 0.3);
+}
+
+.progress-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.btn-primary {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+}
+
+/* Dark theme support */
+[data-theme="dark"] .coming-soon-message {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+</style>
